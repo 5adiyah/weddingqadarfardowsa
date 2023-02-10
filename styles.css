@@ -29,7 +29,7 @@ body {
   content: '';
   height: 300px;
   width: 100%;
-  bottom: 100px;
+  bottom: 95px;
   background: linear-gradient(180deg, #211D18 16.29%, rgba(33, 29, 24, 0) 105.05%);
   transform: rotate(-180deg);
   background: linear-gradient(180deg, #211D18 16.29%, rgba(33, 29, 24, 0) 87.3%);
