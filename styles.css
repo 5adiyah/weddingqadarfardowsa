@@ -55,7 +55,7 @@ h2, h1 {
 h1 {
   font-family: 'Playfair Display', serif;
   letter-spacing: 3px;
-  font-size: 2.75rem;
+  font-size: 2.15rem;
   line-height: 1em;
   margin: 1em 0;
 }
@@ -131,6 +131,12 @@ h2 {
   background: linear-gradient(180deg, #211D18 16.29%, rgba(33, 29, 24, 0) 105.05%);
   background: linear-gradient(180deg, #211D18 16.29%, rgba(33, 29, 24, 0) 87.3%);
   z-index: 2;
+}
+
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 1000px) {
