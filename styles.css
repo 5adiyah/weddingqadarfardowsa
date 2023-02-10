@@ -57,7 +57,7 @@ h1 {
   letter-spacing: 3px;
   font-size: 2.15rem;
   line-height: 1em;
-  margin: 1.5rem 0 1.5rem;
+  margin: 2.5rem 0 2.5rem;
 }
 
 h2 {
@@ -136,7 +136,6 @@ h2 {
 @media screen and (min-width: 500px) {
   h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
   }
 }
 
