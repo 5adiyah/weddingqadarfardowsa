@@ -49,6 +49,7 @@ body {
   content: '';
   position: absolute;
   height: 96vh;
+  height: calc(var(--doc-height) - 4vh);
   width: 93vw;
   top: 2vh;
   left: 3vw;
