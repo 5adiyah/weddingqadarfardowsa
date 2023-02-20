@@ -34,7 +34,7 @@ body {
 .img-container::before {
   position: absolute;
   content: '';
-  height: 100vh;
+  height: var(--doc-height);
   width: 100vw;
   top: 0;
   left: 0;
