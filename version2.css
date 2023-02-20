@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @font-face { font-family: Brittany; src: url('BrittanySignature.ttf'); } 
 
+:root {
+  --doc-height: 100%;
+ }
+
 body {
   margin: 0 auto;
   background-color: #211D18;
@@ -19,9 +23,10 @@ body {
   background-repeat:  no-repeat;
   background-size:  cover;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   min-height: -webkit-fill-available;
   max-height: -webkit-fill-available;
+  height: var(--doc-height);
   position: relative;
   z-index: 1;
 }
